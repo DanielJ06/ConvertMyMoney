@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 img{
+    width: 489px;
+    height: 57px;
+    margin: 20px;
+}
+
+input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    padding: 10px;
+    margin: 2px;
+}
+
+button {
+    width: 250px;
+    border: none;
+    color: #FFF;
+    background-color: #FF5959;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+button:hover {
+    background-color: rgb(167, 73, 73);
+}
+
+.result {
+   background-color: #d8d8d8; 
+   padding: 10px;
+}
