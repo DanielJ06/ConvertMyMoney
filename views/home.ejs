@@ -2,7 +2,7 @@
     <h1>$ > R$</h1>
     <br>
     <form method="GET" action="/cotacao">
-        <input type="text" name="cotacao" placeholder="Cotação atual (Dólar)" required><br>
+        <input type="text" name="cotacao" placeholder="Cotação atual (Dólar)" required value="<%= cotacao %>"><br>
         <input type="text" name="quantidade" placeholder="Valor (Dólar)" required><br>
         <button>Convert</button>
     </form>
