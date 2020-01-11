@@ -41,4 +41,4 @@ app.get('/cotacao', (req,res) => {
 app.listen(port, (err) => {
     if(err){console.log('Error')}
     else{console.log('Running on port 3000')}
-}) 
+});
