@@ -36,7 +36,6 @@ app.get('/cotacao', (req,res) => {
             error: 'Valores inválidos'
         })
     }
-    
 })
 
 app.listen(port, (err) => {

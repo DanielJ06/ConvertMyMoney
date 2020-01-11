@@ -3,9 +3,20 @@
 <% if(error){ %>
     <%= error %>
 <% }else{ %>
-    Valor inicial: $<%= quantidade %> |
-    Cotação: $<%= cotacao %> |
-    Valor final: R$<%= conversao %>
+    <table class="pure-table pure-table-bordered">
+        <thead>
+            <tr>
+                <th>Valor inicial ($)</th>
+                <th>Cotação ($)</th>
+                <th>Valor final (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%= quantidade %></td>
+                <td><%= cotacao %></td>
+                <td><%= conversao %></td>
+            </tr>
 <% } %>    
 </div>
 </html>

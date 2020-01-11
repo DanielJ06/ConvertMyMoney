@@ -1,9 +1,9 @@
 <%-include('header')%>    
     <h1>$ > R$</h1>
     <br>
-    <form method="GET" action="/cotacao">
-        <input type="text" name="cotacao" placeholder="Cotação atual (Dólar)" required value="<%= cotacao %>"><br>
-        <input type="text" name="quantidade" placeholder="Valor (Dólar)" required><br>
+    <form method="GET" action="/cotacao" class="pure-form pure-form-aligned">
+        <input type="text"  class="pure-input-rounded" name="cotacao" placeholder="Cotação atual (Dólar)" required value="<%= cotacao %>" ><br>
+        <input type="text"  class="pure-input-rounded" name="quantidade" placeholder="Valor (Dólar)" required><br>
         <button>Convert</button>
     </form>
 </body>
